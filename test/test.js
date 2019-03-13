@@ -7,14 +7,19 @@ describe('consts-overlay', () => {
       consts({
         FOO: 'foo',
         BAR: 'bar',
-      }).overlay({
-        FOO: 'foofoo',
-        BAZ: 'baz',
-      }, {
-        onOverride: ({ key, from, to }) => console.log(`Override ${key}: ${from} -> ${to}`)
-      }),
+      }).overlay(
+        {
+          FOO: 'foofoo',
+          BAZ: 'baz',
+        },
+        {
+          onOverride: ({ key, from, to }) =>
+            console.log(`Override ${key}: ${from} -> ${to}`),
+        },
+      ),
       {
         FOO: 'foofoo',
+
         BAR: 'bar',
       },
     )
