@@ -19,7 +19,7 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.17.1",
+    "prettier": "^1.18.2",
     "the-templates": "^6.0.14"
   },
   "homepage": "https://github.com/FujiHaruka/consts-overlay#readme",
