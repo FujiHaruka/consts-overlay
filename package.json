@@ -1,7 +1,7 @@
 {
   "name": "consts-overlay",
   "description": "Function to overlay a constants object",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "FujiHaruka",
   "browser": "shim/browser",
   "bugs": {
